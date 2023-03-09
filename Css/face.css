@@ -1,0 +1,50 @@
+#face {
+
+   flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;  
+    gap: 2rem;
+    margin-bottom: 2rem;
+ 
+}
+
+#face article {
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem;
+
+  
+}
+
+#face article h1 {
+
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#face article h2 {
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    
+}
+
+#face picture img {
+
+    border-radius: 2rem;
+    overflow: hidden;
+    
+}
+

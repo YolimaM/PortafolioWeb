@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    
+}
+
+ body {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Libre Baskerville', Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+
+img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+li {
+
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+input {
+
+    outline: none;
+}
+
+textarea {
+
+    resize: none;
+    outline: none;
+}

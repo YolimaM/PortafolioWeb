@@ -1,0 +1,56 @@
+#contact {
+    background-color: #636464;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    
+ 
+  }
+  #contact form {
+    border: 0.15rem solid rgb(191, 188, 188);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+   
+  }
+  #contact form fieldset {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.25rem;
+    background-color: snow;
+    padding: 0.25rem;
+    width: 100%;
+  }
+  #contact form fieldset label {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(66, 70, 69);
+  }
+  #contact form fieldset input {
+    flex: 1;
+    color: #282828;
+    border-bottom: 0.25rem solid #282828;
+    padding: 0 1rem;
+    
+  }
+  
+  #contact form button {
+    margin: 1rem;
+    padding: 0.5rem 2.25rem;
+    background-color: rgb(7, 9, 9);
+    text-transform: uppercase;
+    color: snow;
+    cursor: pointer;
+  }
+
